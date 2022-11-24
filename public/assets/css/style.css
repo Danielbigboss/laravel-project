@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
+.tinos {
+    font-family: 'Tinos', serif;
+
+}
+
+:root {
+    --bg-main: rgb(246, 22, 115);
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden !important;
+}
+a {
+    text-decoration: none !important;
+}
+
+.text-main {
+    color: var(--bg-main) !important;
+}
+.close-mobile-wrap,
+.mobile-trigger {
+    display: none;
+}
+
+header {
+    height: 4rem;
+
+}
+
+.ban {
+    /* margin: 0 10%; */
+    padding-top: 1rem;
+}
+
+.banner-img {
+    max-width: 23rem;
+    width: 100%;
+    height: 27rem;
+    object-fit: cover;
+    border-bottom-left-radius: 4rem;
+    border-top-right-radius: 4rem;
+}
+
+.banner_design {
+    width: 20rem;
+    background-color: rgb(246, 22, 115);
+    height: 36rem;
+    position: absolute;
+    right: 0;
+    top: -6rem;
+    z-index: -300;
+    border-bottom-left-radius: 4rem;
+}
+
+.register {
+    background-color: white;
+    padding: .5rem 2rem;
+    border-radius: .4rem;
+    margin-right: 5rem;
+}
+.register2{
+    background-color: var(--bg-main);
+    padding: .5rem 2rem;
+    border-radius: .4rem;
+}
+
+.banner-text {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: 600;
+}
+
+.get-started {
+    background-color: rgb(246, 22, 115);
+    padding: .5rem .7rem;
+}
+
+.ban-2 {
+    margin-left: .1rem;
+}
+
+.ban {
+    margin-top: 1rem;
+}
+.font-m{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.icon-me {
+    height: 2.5rem;
+    width: 2.5rem;
+    box-shadow: rgba(92, 90, 90, 0.24) 0px 3px 8px;
+}
+.glassme{
+    background-color: rgba(255, 255, 255, 0.175);
+    backdrop-filter: blur(3px);
+}
+.sewimg {
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
+.eventhome{
+    background: linear-gradient( rgba(0, 0, 0, 0.483), rgba(0, 0, 0, 0.507)), url('../images/women-on-machine-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about-stroke::before{
+    content: '';
+    position: absolute;
+    height: .1rem;
+    width: 100%;
+    top: 50%;
+    right: -100%;
+    background-color: var(--bg-main);
+}
+.galleryimg{
+    width: 32%;
+    margin: .22rem ;
+    height: auto;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.922);
+}
+@media screen and (max-width: 1000px){
+    .banner_design {
+        max-width: 20rem;
+        width: 70%;
+        height: 32rem;
+        top: -6rem;
+    }
+
+    .banner-img {
+        height: 27rem;
+        max-width: 20rem;
+        height: 23rem ;
+    }
+
+    .banner-text {
+        font-size: 2.5rem;
+        line-height: 3rem;
+        font-weight: 600;
+    }
+
+}
+.tailor-banner{
+    height: 30rem;
+    object-fit: cover;
+    filter: brightness(20%);
+}
+.testimg{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--bg-main);
+}
+.route-home{
+    position: absolute;
+    bottom: 3%;
+    left: 1%;
+    background-color: rgba(22, 22, 22, 0.514);
+    backdrop-filter: blur(.1rem);
+    padding: 1rem 2rem;
+}
+.subin{
+outline: none !important;
+border: none !important;
+padding: .4rem .2rem;
+
+}
+.bg-darker{
+    background-color: black;
+}
+.subbtn{
+    outline: none !important;
+border: none !important;
+padding: .4rem .2rem;
+background-color: var(--bg-main);
+color: white;
+}
+.about-img{
+    height: 22rem;
+    object-fit: cover;
+}
+.services-img{
+    height: 15rem;
+    object-fit: cover;
+}
+.register-box{
+    width: 96%;
+    max-width: 30rem;
+    margin: auto;
+}
+
+.form-twin {
+    width: 100%;
+    background-color: whitesmoke;
+}
+.login-icon{
+    width: 10rem;
+}
+.user-profile{
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.form-twin
+input,
+select {
+    border: none;
+    background-color: whitesmoke;
+    outline: none;
+}
+.profile {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border: 4px solid rgb(131, 128, 128);
+    border-radius: 50%;
+    display: none;
+}
+.footer-soc{
+    background-color: rgb(31, 30, 30);
+    padding: .2rem .5rem;
+    transition: all ease .5s;
+}
+.footer-soc:hover{
+    background-color: var(--bg-main);
+}
+.admin_users_profile{
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.users_container{
+    overflow-x: scroll;
+}
+.subthead{
+    background-color: coral;
+    color: white;
+}
+.subthead th{
+    border: 1px solid white;
+}
+
+.collapsible {
+    cursor: pointer;
+  }
+.no_subcriber{
+    background-color: rgb(108, 108, 252);
+    color: #ffff;
+    padding: 1rem .5rem;
+}
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: .4rem 3rem;
+    display: none;
+    background-color:  #ffff;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .abtimg{
+    height: 27rem;
+    object-fit: cover;
+  }
+@media screen and (max-width: 767px) {
+    .content{
+        text-align: center !important;
+        position: none !important;
+        width: 100%;
+        z-index: 300;
+        background-color: black !important;
+        color: black !important;
+    }
+    .content a{
+        color: red !important;
+        z-index: 500 !important;
+    }
+    .mobile-wrap {
+        background-color: rgba(26, 24, 24, 0.667);
+        position: fixed;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        right: -100%;
+        top: 0;
+        display: block !important;
+        z-index: 200;
+        transition: all ease .5s;
+    }
+
+    .mobile-wrap a {
+        color: white !important;
+        line-height: 3rem;
+    }
+
+    .banner_design {
+        max-width: 20rem;
+        width: 70%;
+        height: 26rem !important;
+        top: 0;
+    }
+    .services-img,
+    .about-img{
+        height: auto;
+    }
+
+    .banner-img {
+        padding-top: 2rem !important;
+    }
+
+    .banner-text {
+        font-size: 2rem !important;
+        line-height: 2.5rem !important;
+        font-weight: 600;
+    }
+
+    .register {
+        background-color: var(--bg-main);
+        color: white !important;
+        padding: .3rem 1rem;
+        margin-right: 0 !important;
+    }
+    .close-mobile-wrap,
+    .mobile-trigger {
+        display: block;
+    }
+    .abtimg,
+    .sewimg{
+        height: auto !important;
+    }
+}
